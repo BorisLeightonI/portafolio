@@ -1,0 +1,41 @@
+:root{
+    --navfoot: #1c4e80;
+    --textNavFoot: white;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.navFoot{
+    background: var(--navfoot);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--textNavFoot);
+}
+.navbar-light .navbar-brand{
+    color: var(--textNavFoot);
+}
+.navbar-brand, .name{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+header{
+    background-image: url(../img/perspectiva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    color: rgb(0, 29, 46);
+}
+section#about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dospasiones{
+    display: flex;
+}
+div.card{
+    transition: transform 500ms;
+}
+div.card:hover{
+    transform: scale(1.1);
+}
