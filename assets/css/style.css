@@ -19,11 +19,12 @@ body{
     font-size: 30px;
 }
 header{
-    background-image: url(../img/perspectiva.jpg);
+    background-image: url(../img/yo.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 65% 90%;
     background-position: left;
     color: rgb(0, 29, 46);
+    min-height: 600px;
 }
 section#about .row{
     display: flex;
